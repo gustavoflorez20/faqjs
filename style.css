@@ -1,0 +1,125 @@
+.up{
+    width: 100vw;
+}
+
+.image-sup{
+    width: 100vw;
+}
+.up-1{
+    background-color: #F9EEFF;
+    margin: 0 auto;
+    width: 100vw;
+    font-size: 0.60rem;
+}
+ .up-2{
+    background-color: white;
+    width: 18rem;
+  display: block;
+  padding: 1rem;
+  border-radius: 0.50rem;
+  margin: 0 auto;
+  position: relative;
+  bottom: 6rem;
+
+ }
+
+.arcordeon .contenido{
+    height: 0;
+    padding: 0rem;
+    overflow: hidden;
+    transition:all .5s ease ;
+
+
+}
+
+.arcordeon .bloque.activo .contenido{
+    height: 5rem;
+    
+
+}
+
+
+.prueba{
+    display: flex;
+    flex-direction: row;
+    justify-items: end;
+   
+  
+    
+}
+.arcordeon .minus{
+    height: 0;
+    padding: 0rem;
+    overflow: hidden;
+    transition:all .5s ease ;
+    position: relative;
+    right: 1.50rem;
+    top: 0.50rem;
+    align-items: end;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: flex-end;
+    transition:all .5s ease ;
+}
+
+.arcordeon .prueba.activo .minus{
+    height: 0;
+    padding: 0rem;
+    overflow: hidden;
+    transition:all .5s ease ;
+}
+.arcordeon .prueba.desactivado .minus{
+    height: 5rem;
+
+}
+.arcordeon .plus{
+   height: 5rem;
+   position: relative;
+    left: 1rem;
+    top: 0.50rem;
+    align-items: end;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: flex-end;
+    transition:all .5s ease ;
+}
+
+.arcordeon .prueba.activo .plus{
+    height: 5rem; 
+
+    
+}
+
+.arcordeon .prueba.desactivado .plus{
+    height: 0;
+    padding: 0rem;
+    overflow: hidden;
+    transition:all .5s ease ;
+
+}
+
+
+
+
+
+
+
+.arcordeon .imagen1.activo .contenido{
+    height: 5rem;
+}
+
+.arcordeon .imagen2.desactivo .contenido{
+    height: 0rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
